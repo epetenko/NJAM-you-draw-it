@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<meta charset='utf-8'>
+<title>NJ.com Data Team</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="js/d3v4.js"></script>
+<script src="js/pym.js"></script>
+
+
+
+<body>
+	<div class='big-container njam-container'>
+		<div class='intro-text'>
+			<h1>NJ.com Data & Interactives</h1>
+			<p class='intro-text'>We put together a tool that helps you to understand how New Jersey has changed — by making you guess your way to it. Drag the line to the opposite side to find out how your guesses compare to actual data from the Census.</p>
+		</div>
+		<div class='min-container'>
+			<div id="housevalues"></div>
+			<script>
+			    var pymParent = new pym.Parent('housevalues', 'index_housevalues.html', {});
+			</script>
+		</div>
+		<div class='min-container'>
+			<div id="income"></div>
+			<script>
+			    var pymParent = new pym.Parent('income', 'index_income.html', {});
+			</script>
+		</div>
+		<div class='min-container'>
+			<div id="pop"></div>
+			<script>
+			    var pymParent = new pym.Parent('pop', 'index_pop.html', {});
+			</script>
+		</div>
+		<div class='min-container'>
+			<div id="hisp"></div>
+			<script>
+			    var pymParent = new pym.Parent('hisp', 'index_hispanic.html', {});
+			</script>
+		</div>
+		<div class='min-container'>
+			<div id="emp"></div>
+			<script>
+			    var pymParent = new pym.Parent('emp', 'index_unemployment.html', {});
+			</script>
+		</div>
+	<div class='min-container'>
+			<div id="birth"></div>
+			<script>
+			    var pymParent = new pym.Parent('birth', 'index_births.html', {});
+			</script>
+		</div>
+	<div class='min-container'>
+			<div id="heroin"></div>
+			<script>
+			    var pymParent = new pym.Parent('heroin', 'index_heroin.html', {});
+			</script>
+		</div>
+</div>
+</body>

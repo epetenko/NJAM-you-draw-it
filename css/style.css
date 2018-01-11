@@ -1,0 +1,114 @@
+@font-face {
+    font-family: BentonSans;
+    src: url("BentonSans/BentonSans-Regular_sOT.otf") format("opentype");
+}
+
+svg{
+	overflow: visible;
+}
+
+body{
+  margin: 0px;
+  font-family:BentonSans;
+/*  overflow: hidden;
+*/}
+
+.banner, .banner2 {
+    background-color:#4c6369;
+    width: 100%;
+    text-transform: uppercase;
+    color:#fff;
+}
+
+.banner {
+    height:20px;
+    width:100%;
+    padding:0px 0px 0px 5px;
+}
+
+.banner2 {
+    margin:8px 0px 0px 0px;
+    height:5px;
+    bottom:10px;
+    width:100%;
+}
+
+.big-container {
+  margin:auto;
+  width:50%;
+}
+
+.axis{
+  opacity: .5;
+}
+
+.intro-dot {
+  fill:#54EAEA;
+}
+
+.line{
+  fill: #F6839C;
+  stroke: black;
+  stroke-width: 3;
+}
+
+.area{
+  fill: #45C1C0;
+  opacity: .4;
+}
+
+
+
+.your-line{
+  stroke: #54EAEA;
+  stroke-width: 3;
+  stroke-dasharray: 5 5;
+}
+
+/*.answer {
+  visibility: hidden;
+}*/
+
+.explain {
+  visibility: hidden;
+}
+
+.your-pink{
+  display:inline;
+  font-size:22px;
+  color:#45C1C0;
+}
+
+
+.njam-container {
+    font-family: BentonSans,sans-serif;
+    fill: #333;
+    width:100%;
+    max-width: 600px;
+/*    margin:0px 0px 0px 10px;
+*/    padding:0px 0px 5px 2px;
+
+}
+
+
+.njam-container div.btn-group.bootstrap-select {
+    width: 90%;
+}
+
+
+
+/*h1 {
+    margin:2px;
+}
+*/
+.intro_text {
+    font-size: 14px;
+    clear: both;
+}
+
+
+@media screen and (min-width: 850px) {
+    #njam-container {
+        float:left;
+    }
+}
