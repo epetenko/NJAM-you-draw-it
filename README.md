@@ -37,13 +37,13 @@ And change it to your data. At the moment, it only works by year. But you can ch
 ``````
 c.x.domain([2005, 2017])
 c.y.domain([22, 38])
-`````
+``````
 Change the x.domain to the years you want to show, and the y domain to the y axis of the graph. If you're not displaying percentages, you may also have to change `c.yAxis.ticks(5).tickFormat(d =>  d3.format(",.3r")(d) + '%')
 ` to remove the percent sign or add, say, a dollar sign.
 
 You'll also have to change this, later in the code:
-```````
-    var year = clamp(2005, 2017, c.x.invert(pos[0]))
+``````
+var year = clamp(2005, 2017, c.x.invert(pos[0]))
 ``````
 Again, just change it to the years you want.
 
@@ -54,7 +54,7 @@ var clipRect = c.svg
   .append('clipPath#clip-4')
   .append('rect')
   .at({width: c.x(2009)-2, height: c.height})
-`````
+``````
 Right now, it's set to show everyone up to 2009.
 
 You'll do the same thing at 
