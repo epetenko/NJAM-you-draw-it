@@ -45,6 +45,11 @@ You'll also have to change this, later in the code:
 ``````
 var year = clamp(2005, 2017, c.x.invert(pos[0]))
 ``````
+And this: 
+
+```````
+      clipRect.transition().duration(1000).attr('width', c.x(2017))
+````````
 Again, just change it to the years you want.
 
 You also have to configure what year to show at first, the trendline part before the reader adds their guess. That's here: 
